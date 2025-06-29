@@ -12,11 +12,7 @@ if (!getApps().length) {
 
 
 
-  console.log("🔥 PRIVATE KEY CHECK START");
-console.log(process.env.FIREBASE_PRIVATE_KEY);
-console.log("🔥 AFTER REPLACE:");
-console.log(process.env.FIREBASE_PRIVATE_KEY?.replace(/\\n/g, "\n"));
-console.log("🔥 PRIVATE KEY CHECK END");
+
 
 
 
